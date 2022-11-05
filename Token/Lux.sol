@@ -5,6 +5,6 @@ import { ERC20 } from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract GuildFiToken is ERC20("Lux World", "Lux") {
   constructor() {
-    _mint(msg.sender, 1_000_000_000 ether);
+    _mint(msg.sender, 2_000_000_000 ether);
   }
 }
